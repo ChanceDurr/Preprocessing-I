@@ -126,24 +126,36 @@ table {
 * {
   box-sizing: border-box;
 }
+header {
+  height: 40px;
+  width: 100%;
+  background-color: slategray;
+  text-align: right;
+  padding: 10px 10px 0px 0px;
+}
+header a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  margin: auto;
+  padding-right: 10px;
+}
+header h1 {
+  text-align: center;
+  font-size: 32px;
+}
 html,
 body {
   height: 100%;
+  width: 100%;
   background-color: white;
+  margin: auto;
 }
-html header,
-body header {
-  height: 40px;
-  background-color: slategray;
-  text-align: right;
-  padding-top: 11px;
-  padding-right: 10px;
-}
-html header a,
-body header a {
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  padding-top: 20px;
-  padding-right: 5px;
+html .content,
+body .content {
+  height: 100%;
+  max-width: 80%;
+  justify-content: center;
+  background-color: tan;
+  margin: auto;
 }
